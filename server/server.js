@@ -30,6 +30,7 @@ mongoose
     })
  })
 
+ console.log("Server running")
 
  app.listen(PORT,()=>{
     console.log(`Server is now running on port ${PORT}`)
